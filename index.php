@@ -11,10 +11,11 @@ session_start();
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body class="bg-light">
+<body style="background: linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%); min-height: 100vh;">
   <div class="container mt-5 d-flex justify-content-center">
     <div class="card shadow-lg p-4" style=max-width: 500px; width=100%>
-      <h2 class="text-center mb-4">Registration Form</h2>
+      <h2 class="text-center mb-2 ">Mini Registration </h2>
+      <p class="text-center text-muted">Please fill in your details below. </p>
       <form action="save.php" method="POST" class="needs-validation" novalidate>
         
         <div class="mb-3">
